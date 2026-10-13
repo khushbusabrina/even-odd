@@ -1,0 +1,83 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+body{
+    background-color: blanchedalmond;
+}
+    .inputdiv{
+   margin-left:100px;
+    padding-bottom: 5px;
+    width: 150px;
+
+}
+.heading{
+  
+    
+    margin-left:110px;
+    margin-top:40px; 
+    
+}
+.heading h1{
+        color: chocolate;
+        font-size: 12px;
+    
+   
+}
+#clearbtn{
+
+     padding: 4px 6px;
+     margin-left: 5px;
+    margin-bottom: 8px;
+    font-size: 12px;
+   
+}
+#number{
+    margin-top: 25px;
+    padding: 8px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    width: 110px;
+    
+
+}
+#number::placeholder{
+
+font-size: 12px;
+}
+#btn{
+     padding: 5px 7px;
+     margin-left: 1px;
+    margin-bottom: 8px;
+    font-size: 12px;
+   
+
+}
+#result{
+     margin-left: 5px;
+     margin-bottom: 1px;
+    
+    font-size: 12px;
+}
+  
+ .h2wrapper{
+   margin-top: 2px;
+    padding: 1px;
+    margin-left: 16px;
+    margin-bottom: 7px;
+    width: 117px;
+    
+}
+   
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
